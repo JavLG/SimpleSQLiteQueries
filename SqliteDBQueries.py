@@ -24,6 +24,11 @@ def readSqliteTable(dbName):
 			print("The SQLite connection is closed")
 
 
+'''
+JavLG Friday 16/04/2021: Simple sqlite queries to DB.
+'''
+#DB Name should be on script root directory.			
+			
 
 if __name__=="__main__":
 	dbName = input("Please input DB name:  ")
